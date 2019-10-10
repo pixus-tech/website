@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
+        title: `pixus`,
         description: `Make your Staff and Workspace Happy`,
         author: `@mostafasoufi`,
     },
@@ -28,18 +28,6 @@ module.exports = {
             },
         },
         `gatsby-plugin-sass`,
-        {
-            resolve: 'gatsby-plugin-web-font-loader',
-            options: {
-                google: {
-                    families: ['PT Serif'],
-                },
-                custom: {
-                    families: ['Inter'],
-                    urls: ['/fonts/fonts.css']
-                }
-            }
-        },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,

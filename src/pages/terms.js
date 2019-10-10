@@ -15,7 +15,7 @@ const TermsPage = () => (
                 <p><strong>Last Updated 07 June 2019</strong></p>
 
                 <h3><strong>1. Agreement to Terms</strong></h3>
-                <p>1.1 These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<strong>you</strong>), and <strong>HiStaff</strong>, doing business as<strong> HiStaff</strong> <strong>(https://histaff.io) </strong>website as well as any related applications (the <strong>Site</strong>). &nbsp;</p>
+                <p>1.1 These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<strong>you</strong>), and <strong>pixus</strong>, doing business as<strong> pixus</strong> <strong>(https://histaff.io) </strong>website as well as any related applications (the <strong>Site</strong>). &nbsp;</p>
                 <p>The Site provides the following services: (<strong>Services</strong>). You agree that by accessing the Site and/or Services, you have read, understood, and agree to be bound by all of these Terms and Conditions. &nbsp;</p>
                 <p><strong>If you do not agree with all of these Terms and Conditions, then you are prohibited from using the Site and Services and you must discontinue use immediately</strong>. We recommend that you print a copy of these Terms and Conditions for future reference. &nbsp;</p>
                 <p>1.2 The supplemental policies set out in Section 1.7 below, as well as any supplemental terms and condition or documents that may be posted on the Site from time to time, are expressly incorporated by reference. &nbsp;</p>

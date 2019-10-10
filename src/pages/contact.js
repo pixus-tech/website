@@ -14,7 +14,7 @@ const ContactPage = () => (
 
                 <div className={"row"}>
                     <div className={"col-7"}>
-                        <p>We take our commitment to our users seriously. If you need our help with your user account, have questions about how to use the HiStaff, any feedback or are experiencing technical difficulties, please do not hesitate to contact us.</p>
+                        <p>We take our commitment to our users seriously. If you need our help with your user account, have questions about how to use the pixus, any feedback or are experiencing technical difficulties, please do not hesitate to contact us.</p>
                     </div>
 
                     <div className={"col-5"}>

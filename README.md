@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  HiStaff Static Website
+  pixus Static Website
 </h1>
 
 It's a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org/) .
@@ -18,7 +18,7 @@ It's a starter static website which useful plugins based on [Gatsby](https://www
    npm install -g gatsby-cli
    ```
 
-2. **Create a Gatsby site from HiStaff.**
+2. **Create a Gatsby site from pixus.**
 
    ```sh
    gatsby new histaff https://github.com/histaff/website-static/

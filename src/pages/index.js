@@ -14,8 +14,8 @@ const IndexPage = () => (
         <SEO title="Make your Staff and Workspace Happy"/>
 
         <div className={"page-header home"}>
-            <h1>Make your Staff and Workspace Happy</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <h1>Reclaim your photo library</h1>
+            <p>Pixus empowers you to organize and share your end-to-end encrypted photos.<br />Additionally with pixus, you choose where your encrypted data is stored.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -31,8 +31,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>Organize and share</h2>
+                                <p>Create albums, upload encrypted photos and invite frinds, family or others to collect memories together.</p>
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>Your data</h2>
+                                <p>Pixus uses Blockstack for authentication and Gaia, a decentral storage engine, for allowing users to store data in the storage of their choice.</p>
                             </div>
                         </div>
 
@@ -65,8 +65,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                                <h2>End-to-end encryption</h2>
+                                <p>Pixus automatically encrypts your photos before uploading them to your storage. That encryption key can be shared with collaborators.</p>
                             </div>
                         </div>
                     </div>
@@ -76,8 +76,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
+                                <h2>Live editing</h2>
+                                <p>Updates to collaborative albums or images appear in realtime in your browser</p>
                             </div>
                         </div>
 
@@ -99,8 +99,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
+                                <h2>Client-side AI</h2>
+                                <p>Pixus AI analyzes your photos on your machine. The algorithms are open source, the resulting data is yours.</p>
                             </div>
                         </div>
                     </div>
@@ -111,12 +111,12 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <h2>Start for free</h2>
+                    <p>Sign up with Blockstack and reclaim your photo library.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
+                    <a href="https://app.histaff.io" target={"_blank"}>Sign up</a>
                 </div>
             </div>
         </div>
