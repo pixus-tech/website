@@ -2,12 +2,12 @@ $break-small: 719px;
 $font-body: "Source Sans Pro", sans-serif;
 $font-accent: "Bitter", serif;
 $color-white: #f3f3f3;
-$color-primary--light: #7e8080;
-$color-primary--main: #525454;
-$color-primary--dark: #282828;
-$color-secondary--light: #59c9eb;
-$color-secondary--main: #0098b9;
-$color-secondary--dark: #006a89;
+$color-primary--light: #434345;
+$color-primary--main: #1c1c1e;
+$color-primary--dark: #000000;
+$color-secondary--light: #64e8ff;
+$color-secondary--main: #06b6dc;
+$color-secondary--dark: #0086aa;
 
 body {
   font-family: $font-body;
@@ -49,17 +49,14 @@ body {
 
       .get-started {
         a {
-          width: 160px;
-          height: 47px;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 16px;
-          line-height: 47px;
+          width: 223px;
+          height: 54px;
           display: block;
-          background: $color-secondary--main;
-          border-radius: 4px;
-          text-align: center;
-          color: $color-white;
+          background-image: url('../images/blockstack/btn.svg');
+
+          &:hover {
+            background-image: url('../images/blockstack/btn--focus.svg');
+          }
         }
       }
     }
@@ -73,17 +70,17 @@ body {
 
     h1 {
       font-style: normal;
-      font-weight: bold;
+      font-weight: normal;
       font-size: 48px;
       color: $color-primary--dark;
-      padding: 0 0 15px 0;
+      padding: 0;
       line-height: 54px;
     }
 
     h2 {
       font-size: 36px;
       font-style: normal;
-      font-weight: bold;
+      font-weight: normal;
       color: $color-primary--dark;
       line-height: 54px;
     }
@@ -138,8 +135,8 @@ body {
 
         h2 {
           font-size: 36px;
-          font-weight: bold;
-          margin-bottom: 15px;
+          font-weight: normal;
+          margin-bottom: 8px;
           color: $color-primary--dark;
         }
 
@@ -200,6 +197,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
 
       @media screen and (max-width: $break-small) {
         display: block;
@@ -208,25 +206,17 @@ body {
       }
 
       a {
-        font-size: 18px;
-        background-color: $color-white;
-        width: 184px;
-        margin-left: auto;
-        border-radius: 4px;
+        width: 223px;
         height: 54px;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        font-weight: bold;
-        flex-direction: column;
-        color: $color-secondary--main;
+        display: block;
+        background-image: url('../images/blockstack/btn-light.svg');
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
         }
 
-        &:active {
-
+        &:hover {
+          background-image: url('../images/blockstack/btn-light--focus.svg');
         }
       }
     }
@@ -323,7 +313,7 @@ body {
 
     .footer__logo {
       img {
-        width: 100%;
+        width: 150px;
       }
     }
 

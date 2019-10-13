@@ -11,7 +11,7 @@ import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="Reclaim your photo library"/>
 
         <div className={"page-header home"}>
             <h1>Reclaim your photo library</h1>
@@ -116,7 +116,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Sign up</a>
+                    <a href="https://app.histaff.io" target={"_blank"} />
                 </div>
             </div>
         </div>
