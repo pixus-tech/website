@@ -3,11 +3,11 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
+import thumbnailEvent from "../../static/images/pluto/pluto-artist-workspace.png"
+import thumbnailBoard from "../../static/images/pluto/virtual-reality.png"
+import thumbnailNews from "../../static/images/pluto/information-security-1.png"
+import thumbnailTeams from "../../static/images/pluto/pluto-done-1.png"
+import thumbnailStaff from "../../static/images/pluto/robots-drones-artificial-intelligence-1.png"
 
 const IndexPage = () => (
     <Layout>
@@ -15,7 +15,10 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>Reclaim your photo library</h1>
-            <p>Pixus empowers you to organize and share your end-to-end encrypted photos.<br />Additionally with pixus, you choose where your encrypted data is stored.</p>
+            <p>Pixus empowers you to organize and share your end-to-end encrypted photos. Additionally with pixus, you choose where your encrypted data is stored.</p>
+            <div className={"get-started"}>
+              <a href={"https://app.histaff.io"} />
+            </div>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
