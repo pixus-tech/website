@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
         title: `pixus`,
-        description: `Make your Staff and Workspace Happy`,
-        author: `@mostafasoufi`,
+        description: `Reclaim your photo library`,
+        author: `@tomknig`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -18,11 +18,11 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `pixus`,
+                short_name: `pixus`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#FF54AC`,
+                background_color: `#f3f3f3`,
+                theme_color: `#f3f3f3`,
                 display: `minimal-ui`,
                 icon: `${__dirname}/static/images/icon.svg`, // This path is relative to the root of the site.
             },

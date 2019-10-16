@@ -1,14 +1,7 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://raw.githubusercontent.com/histaff/website-static/development/static/images/icon.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  pixus Static Website
-</h1>
+# pixus website
+---
 
-It's a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org/) .
+[![Netlify Status](https://api.netlify.com/api/v1/badges/02365584-601c-4a7e-b9ca-031577d9c923/deploy-status)](https://app.netlify.com/sites/pixus-website/deploys)
 
 ## 🚀 Quick start
 
