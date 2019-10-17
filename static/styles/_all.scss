@@ -8,6 +8,9 @@ $color-primary--dark: #000000;
 $color-secondary--light: #64e8ff;
 $color-secondary--main: #06b6dc;
 $color-secondary--dark: #0086aa;
+$cta-height: 48px;
+$wbm-height: $cta-height;
+$wbm-width: $wbm-height * 4.23;
 
 body {
   font-family: $font-body;
@@ -21,7 +24,7 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: $font-accent;
     line-height: 43px;
-    color: $color-primary--dark;
+    color: $color-primary--main;
   }
 
   a {
@@ -32,15 +35,68 @@ body {
     }
   }
 
+  .get-started {
+    a {
+      background-color: $color-secondary--main;
+      border-radius: 4px;
+      color: $color-white;
+      display: block;
+      font-weight: bold;
+      height: $cta-height;
+      line-height: $cta-height;
+      padding: 0 16px;
+      text-align: center;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: $color-secondary--dark;
+      }
+    }
+  }
+
   header {
     background-color: $color-white;
     display: block;
-    padding: 39px 0;
+    margin-bottom: 23px;
+    padding: 39px 0 16px;
+
+    @media screen and (max-width: $break-small) {
+      padding: 12px 0;
+      background-color: $color-primary--dark;
+    }
+
+    .container {
+      @media screen and (max-width: $break-small) {
+        width: initial;
+        padding: 0 12px;
+      }
+    }
+
+    .brightLogo {
+      display: none;
+
+      @media screen and (max-width: $break-small) {
+        display: block;
+      }
+    }
+
+    .darkLogo {
+      display: block;
+
+      @media screen and (max-width: $break-small) {
+        display: none;
+      }
+    }
 
     .logo {
       img {
-        width: 151px;
-        height: 44px;
+        width: $wbm-width;
+        height: $wbm-height;
+
+        @media screen and (max-width: $break-small) {
+          width: $wbm-width * 0.62;
+          height: $wbm-height * 0.62;
+        }
       }
     }
 
@@ -49,18 +105,11 @@ body {
       justify-content: space-between;
 
       .get-started {
-        a {
-          width: 223px;
-          height: 54px;
-          display: block;
-          background-image: url('../images/blockstack/btn.svg');
-
-          @media screen and (max-width: $break-small) {
-            display: none;
-          }
-
-          &:hover {
-            background-image: url('../images/blockstack/btn--focus.svg');
+        @media screen and (max-width: $break-small) {
+          a {
+            height: $wbm-height * 0.62;
+            line-height: $wbm-height * 0.62;
+            padding: 0 8px;
           }
         }
       }
@@ -69,19 +118,19 @@ body {
 
   .page-header {
     text-align: center;
-    padding: 70px 0 70px 0;
+    padding: 20px 0 70px 0;
     background-color: $color-white;
 
     h1 {
       font-style: normal;
       font-weight: normal;
       font-size: 48px;
-      color: $color-primary--dark;
+      color: $color-primary--main;
       padding: 0;
       line-height: 54px;
 
       @media screen and (max-width: $break-small) {
-        margin: 0 auto;
+        margin: 0 auto 16px;
         max-width: 440px;
       }
     }
@@ -90,7 +139,7 @@ body {
       font-size: 36px;
       font-style: normal;
       font-weight: normal;
-      color: $color-primary--dark;
+      color: $color-primary--main;
       line-height: 54px;
     }
 
@@ -100,6 +149,7 @@ body {
       font-size: 20px;
       line-height: 34px;
       margin: 0 auto;
+      padding: 0 8px;
       max-width: 720px;
     }
 
@@ -114,27 +164,6 @@ body {
 
     &.home {
       padding-bottom: 30px;
-    }
-
-
-    .get-started {
-      display: none;
-
-      @media screen and (max-width: $break-small) {
-        display: block;
-      }
-
-      a {
-        width: 223px;
-        height: 54px;
-        display: block;
-        background-image: url('../images/blockstack/btn.svg');
-        margin: 21px auto;
-
-        &:hover {
-          background-image: url('../images/blockstack/btn--focus.svg');
-        }
-      }
     }
 
     @media screen and (max-width: $break-small) {
@@ -153,7 +182,7 @@ body {
 
   .features {
     .feature__item {
-      padding: 50px 0;
+      padding: 36px 0;
 
       .row {
         display: flex;
@@ -172,8 +201,8 @@ body {
         h2 {
           font-size: 36px;
           font-weight: normal;
-          margin-bottom: 8px;
-          color: $color-primary--dark;
+          margin: 8px 0;
+          color: $color-primary--main;
         }
 
         p {
@@ -192,6 +221,7 @@ body {
           display: block;
           margin: 0 auto;
           max-width: 80%;
+          max-height: 256px;
         }
       }
     }
@@ -221,6 +251,7 @@ body {
     background-color: $color-primary--main;
     color: $color-white;
     padding: 65px 0;
+    margin-top: 48px;
 
     .container {
       display: flex;
@@ -234,7 +265,7 @@ body {
       }
     }
 
-    .button {
+    .get-started {
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -242,23 +273,15 @@ body {
       align-items: center;
 
       @media screen and (max-width: $break-small) {
-        display: block;
-        width: 100%;
+        width: initial;
         margin-top: 30px;
       }
 
-      a {
-        width: 223px;
-        height: 54px;
-        display: block;
-        background-image: url('../images/blockstack/btn-light.svg');
-
+      .get-started {
         @media screen and (max-width: $break-small) {
-          margin: 0 auto;
-        }
-
-        &:hover {
-          background-image: url('../images/blockstack/btn-light--focus.svg');
+          a {
+            margin: 0 auto;
+          }
         }
       }
     }
@@ -268,7 +291,7 @@ body {
         font-size: 36px;
         font-family: $font-body;
         font-weight: 600;
-        margin: 0 0 32px;
+        margin: 0 0 8px;
         color: $color-white;
       }
 
@@ -299,7 +322,7 @@ body {
       text-align: center;
       font-size: 26px;
       margin-bottom: 99px;
-      color: $color-primary--dark;
+      color: $color-primary--main;
     }
 
     .item {
@@ -325,7 +348,7 @@ body {
   .integration-guid {
     width: 730px;
     margin: 0 auto;
-    color: $color-primary--dark;
+    color: $color-primary--main;
 
     h1, h2, h3, h4, h5, h6 {
       font-family: $font-body;

@@ -16,9 +16,6 @@ const IndexPage = () => (
         <div className={"page-header home"}>
             <h1>Reclaim your photo library</h1>
             <p>Pixus empowers you to organize and share your end-to-end encrypted photos. Additionally with pixus, you choose where your encrypted data is stored.</p>
-            <div className={"get-started"}>
-              <a href={"https://app.histaff.io"} />
-            </div>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -114,12 +111,14 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Start for free</h2>
-                    <p>Sign up with Blockstack and reclaim your photo library.</p>
+                    <h2>Start now. It's free.</h2>
+                    <p>Sign up with Blockstack and start reclaiming your photo library today.</p>
                 </div>
 
-                <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"} />
+                <div className={"get-started"}>
+                    <a href="https://app.histaff.io" target={"_blank"}>
+                      Get Started
+                    </a>
                 </div>
             </div>
         </div>
