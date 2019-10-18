@@ -8,6 +8,7 @@ import thumbnailBoard from "../../static/images/pluto/virtual-reality.png"
 import thumbnailNews from "../../static/images/pluto/information-security-1.png"
 import thumbnailTeams from "../../static/images/pluto/pluto-done-1.png"
 import thumbnailStaff from "../../static/images/pluto/robots-drones-artificial-intelligence-1.png"
+import thumbnailPerformance from "../../static/images/pluto/pluto-success-1.png"
 
 const IndexPage = () => (
     <Layout>
@@ -15,7 +16,7 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>Reclaim your photo library</h1>
-            <p>Pixus empowers you to organize and share your end-to-end encrypted photos. Additionally with pixus, you choose where your encrypted data is stored.</p>
+            <p>Pixus empowers you to organize, explore and share your end-to-end encrypted photos. With Pixus, you choose where your encrypted data is stored.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -32,7 +33,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Organize and share</h2>
-                                <p>Create albums, upload encrypted photos and invite frinds, family or others to collect memories together.</p>
+                                <p>Create albums, upload photos and invite others to share end-to-end encrypted photos.</p>
                             </div>
                         </div>
                     </div>
@@ -42,8 +43,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Your data</h2>
-                                <p>Pixus uses Blockstack for authentication and Gaia, a decentral storage engine, for allowing users to store data in the storage of their choice.</p>
+                                <h2>Your storage, your data</h2>
+                                <p>Pixus uses Blockstack for authentication and Gaia, a decentral storage engine, for enabling you to store your encrypted data in the storage of your choice.</p>
                             </div>
                         </div>
 
@@ -66,7 +67,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>End-to-end encryption</h2>
-                                <p>Pixus automatically encrypts your photos before uploading them to your storage. That encryption key can be shared with collaborators.</p>
+                                <p>Pixus encrypts photos before they leave your device. In case you want to collaborate on an album, a key is used that is only known to the participants of that album.</p>
                             </div>
                         </div>
                     </div>
@@ -76,14 +77,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Live editing</h2>
-                                <p>Updates to collaborative albums or images appear in realtime in your browser</p>
+                                <h2>High performance</h2>
+                                <p>Efficient virtualization and concurrency mechanisms are employed to provide high performane. Pixus can handle libraries with thousands of photos.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
+                                <img alt={"Performance"} src={thumbnailPerformance}/>
                             </div>
                         </div>
                     </div>
@@ -99,8 +100,25 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Client-side AI</h2>
-                                <p>Pixus AI analyzes your photos on your machine. The algorithms are open source, the resulting data is yours.</p>
+                                <h2>AI. On your machine.</h2>
+                                <p>Pixus leverages latest AI research for analyzing your photos on your machine. and makes them explorable through smart albums and a powerful search engine. Entirely on you device.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"feature__item"}>
+                    <div className={"row"}>
+                        <div className={"col-6"}>
+                            <div className={"feature__content"}>
+                                <h2>Stay informed</h2>
+                                <p>Invites to or updates in shared albums are pushed to your app.</p>
+                            </div>
+                        </div>
+
+                        <div className={"col-6 first"}>
+                            <div className={"thumbnail"}>
+                                <img alt={"Team"} src={thumbnailTeams}/>
                             </div>
                         </div>
                     </div>
