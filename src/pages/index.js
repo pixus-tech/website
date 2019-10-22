@@ -6,7 +6,6 @@ import featureImage from "../../static/images/hero.png";
 import thumbnailEvent from "../../static/images/pluto/pluto-artist-workspace.png"
 import thumbnailBoard from "../../static/images/pluto/virtual-reality.png"
 import thumbnailNews from "../../static/images/pluto/information-security-1.png"
-import thumbnailTeams from "../../static/images/pluto/pluto-done-1.png"
 import thumbnailStaff from "../../static/images/pluto/robots-drones-artificial-intelligence-1.png"
 import thumbnailPerformance from "../../static/images/pluto/pluto-success-1.png"
 
@@ -33,7 +32,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Organize and share</h2>
-                                <p>Create albums, upload photos and invite others to share end-to-end encrypted photos.</p>
+                                <p>Create albums, upload photos and invite others to share end-to-end encrypted photos. You receive notifications when albums change or you are invited to a new one.</p>
                             </div>
                         </div>
                     </div>
@@ -44,7 +43,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Your storage, your data</h2>
-                                <p>Pixus uses Blockstack for authentication and Gaia, a decentral storage engine, for enabling you to store your encrypted data in the storage of your choice.</p>
+                                <p>Pixus uses a decentral storage engine <i>Blockstack Gaia</i> that allows you to decide where your encrypted data is stored. <i>Blockstack Gaia</i> comes with 10GB of storage free of charge.</p>
                             </div>
                         </div>
 
@@ -101,24 +100,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>AI. On your machine.</h2>
-                                <p>Pixus leverages latest AI research for analyzing your photos on your machine. and makes them explorable through smart albums and a powerful search engine. Entirely on you device.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Stay informed</h2>
-                                <p>Invites to or updates in shared albums are pushed to your app.</p>
-                            </div>
-                        </div>
-
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
+                                <p>Pixus leverages latest AI research for analyzing your photos on your machine. It makes them explorable through smart albums and a powerful search engine. Entirely on your device.</p>
                             </div>
                         </div>
                     </div>
