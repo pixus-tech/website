@@ -67,8 +67,8 @@ const Layout = ({children}) => (
                                     <h4>Support</h4>
                                     <ul>
                                         <li><Link to="/contact" title={"Contact Us"}>Contact</Link></li>
-                                        <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li>
-                                        <li><Link to="/terms" title={"Imprint"}>Imprint</Link></li>
+                                        <li><Link to="/privacy-policy" title={"Privacy Policy"}>Privacy Policy</Link></li>
+                                        <li><Link to="/legal-notice" title={"Legal Notice"}>Legal Notice</Link></li>
                                     </ul>
                                 </div>
                             </div>
