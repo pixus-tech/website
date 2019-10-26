@@ -252,7 +252,7 @@ body {
     background-color: $color-primary--main;
     color: $color-white;
     padding: 65px 0;
-    margin-top: 48px;
+    margin: 48px 0 -48px;
 
     .container {
       display: flex;
@@ -374,6 +374,7 @@ body {
     background-color: $color-primary--main;
     color: $color-white;
     padding: 120px 0 45px;
+    margin-top: 48px;
 
     @media screen and (max-width: $break-small) {
       padding: 50px 0 45px;

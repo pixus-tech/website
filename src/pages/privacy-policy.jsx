@@ -4,72 +4,82 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const PrivacyPage = () => (
-    <Layout>
-        <SEO title="Privacy Policy"/>
-        <div className={"container"}>
-            <div className={"content"}>
-                <div className={"title"}>
-                    <h1>Privacy Policy</h1>
-                </div>
+  <Layout>
+    <SEO title="Privacy Policy"/>
+    <div className={"container"}>
+      <div className={"content"}>
+        <div className={"title"}>
+          <h1>Privacy Policy</h1>
+        </div>
 
-  <p>This page informs you of our policies regarding the collection, use and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
+        <p>This page informs you of our policies regarding the collection, use and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
 
+        <h2>Definitions</h2>
 
-<h4>Definitions</h4>
+        <ul>
+          <li>
+            <b>Personal data</b>
+            <p>Personal data means any information relating to an identified or identifiable natural person (“data subject”). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.</p>
+          </li>
+          <li>
+            <b>Processing</b>
+            <p>Processing is any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction. </p>
+          </li>
+          <li>
+            <b>Restriction of processing</b>
+            <p>Restriction of processing is the marking of stored personal data with the aim of limiting their processing in the future. </p>
+          </li>
+          <li>
+            <b>Profiling</b>
+            <p>Profiling means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements. </p>
+          </li>
+          <li>
+            <b>Pseudonymisation</b>
+            <p>Pseudonymisation is the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person. </p>
+          </li>
+          <li>
+            <b>Controller or controller responsible for the processing</b>
+            <p>Controller or controller responsible for the processing is the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law. </p>
+          </li>
+          <li>
+            <b>Processor</b>
+            <p>Processor is a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller. </p>
+          </li>
+          <li>
+            <b>Recipient</b>
+            <p>Recipient is a natural or legal person, public authority, agency or another body, to which the personal data are disclosed, whether a third party or not. However, public authorities which may receive personal data in the framework of a particular inquiry in accordance with Union or Member State law shall not be regarded as recipients; the processing of those data by those public authorities shall be in compliance with the applicable data protection rules according to the purposes of the processing. </p>
+          </li>
+          <li>
+            <b>Third party</b>
+            <p>Third party is a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data.</p>
+          </li>
+          <li>
+            <b>Consent</b>
+            <p>Consent of the data subject is any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her. </p>
+          </li>
+        </ul>
 
-<ul style="list-style: none">
-<li><h4>a)    Personal data</h4>
-<p>Personal data means any information relating to an identified or identifiable natural person (“data subject”). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.</p>
-</li>
-<li><h4>b) Data subject</h4>
-<p>Data subject is any identified or identifiable natural person, whose personal data is processed by the controller responsible for the processing.</p>
-</li>
-<li><h4>c)    Processing</h4>
-<p>Processing is any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction. </p>
-</li>
-<li><h4>d)    Restriction of processing</h4>
-<p>Restriction of processing is the marking of stored personal data with the aim of limiting their processing in the future. </p>
-</li>
-<li><h4>e)    Profiling</h4>
-<p>Profiling means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements. </p>
-</li>
-<li><h4>f)     Pseudonymisation</h4>
-<p>Pseudonymisation is the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person. </p>
-</li>
-<li><h4>g)    Controller or controller responsible for the processing</h4>
-<p>Controller or controller responsible for the processing is the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law. </p>
-</li>
-<li><h4>h)    Processor</h4>
-<p>Processor is a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller. </p>
-</li>
-<li><h4>i)      Recipient</h4>
-<p>Recipient is a natural or legal person, public authority, agency or another body, to which the personal data are disclosed, whether a third party or not. However, public authorities which may receive personal data in the framework of a particular inquiry in accordance with Union or Member State law shall not be regarded as recipients; the processing of those data by those public authorities shall be in compliance with the applicable data protection rules according to the purposes of the processing. </p>
-</li>
-<li><h4>j)      Third party</h4>
-<p>Third party is a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data.</p>
-</li>
-<li><h4>k)    Consent</h4>
-<p>Consent of the data subject is any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her. </p>
-</li>
-</ul>
+        <h2>Name and Address of the controller</h2>
 
-<h4>2. Name and Address of the controller</h4>
-<p>Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
+        <p>Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:</p>
 
-</p>
+        <p>
+          Tom König
+          <br />
+          Hans-Zöller-Str. 24e
+          <br />
+          55130 Mainz
+          <br />
+          Deutschland
+        </p>
+        <p>E-Mail: support@pixus.tech</p>
 
-<p></p>
-<p>Straße & Hausnummer</p>
-<p>PLZ Ort</p>
-<p>Land</p>
-<p>Phone: Telefon</p>
-<p>Email: e@example.com</p>
-<p>Website: www.beispiel.de</p>
-
-<h4>3. Collection of general data and information</h4>
+        <h2>Collection of general data and information</h2>
 <p>The website of the FiremFirmenname collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.</p>
 
 <p>When using these general data and information, the FiremFirmenname does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, the FiremFirmenname analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.</p>
+{/*
+<h4></h4>
 
 <h4>4. Contact possibility via the website </h4>
 <p>The website of the FiremFirmenname contains information that enables a quick electronic contact to our enterprise, as well as direct communication with us, which also includes a general address of the so-called electronic mail (e-mail address). If a data subject contacts the controller by e-mail or via a contact form, the personal data transmitted by the data subject are automatically stored. Such personal data transmitted on a voluntary basis by a data subject to the data controller are stored for the purpose of processing or contacting the data subject. There is no transfer of this personal data to third parties.</p>
@@ -195,8 +205,8 @@ Before personal data is provided by the data subject, the data subject must cont
 
 <p>This Privacy Policy has been generated by the Privacy Policy Generator of the <a href="https://dg-datenschutz.de/services/external-data-protection-officer/?lang=en">External Data Protection Officers</a> that was developed in cooperation with the <a href="https://www.wbs-law.de/eng/practice-areas/media-law/">Media Law Lawyers</a> from WBS-LAW.
 </p>
-
-                <p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
+*/}
+                <p>By using our website, you hereby consent to our Privacy Policy.</p>
             </div>
         </div>
     </Layout>
