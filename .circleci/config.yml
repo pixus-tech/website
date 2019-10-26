@@ -51,10 +51,12 @@ jobs:
   deploy:
     executor: node-executor
     working_directory: ~/repo
+    environment:
+      NODE_ENV: production
     steps:
       - checkout
       - attach_workspace:
-          at: .t
+          at: .
       - run:
           name: Build
           command: npm build
