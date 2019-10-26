@@ -52,7 +52,6 @@
     "build": "gatsby build --output-dir",
     "develop": "gatsby develop",
     "deploy": "netlify deploy --prod --dir=public --auth=$NETLIFY_AUTH_TOKEN --site=$NETLIFY_SITE_ID",
-    "format": "prettier --write src/**/*.{js,jsx}",
     "lint:fix": "eslint --fix './src/**/*.{ts,tsx}'",
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "serve": "gatsby serve",
