@@ -1,10 +1,11 @@
-import React from 'react'
-import renderer from 'react-test-renderer'
+import React from "react"
+import { render } from "@testing-library/react"
 import Header from './Header'
 
 describe('Header', () => {
-  it('renders correctly', () => {
-    const tree = renderer.create(<Header siteTitle="Pixus" />).toJSON()
-    expect(tree).toMatchSnapshot()
+  it('displays the corect cta', () => {
+    const { queryByText } = render(<Header siteTitle="pixus" />)
+
+    expect(queryByText('open pixus')).not.toBeNull()
   })
 })

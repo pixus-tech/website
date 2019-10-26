@@ -7,7 +7,7 @@ interface IProps {
   siteTitle: string
 }
 
-function Header({ siteTitle: _siteTitle }: IPros) {
+function Header({ siteTitle: _siteTitle }: IProps) {
   return (
     <header>
       <div className={'container'}>
