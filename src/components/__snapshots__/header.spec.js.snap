@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header>
+  <div
+    className="container"
+  >
+    <div
+      className="top-menu"
+    >
+      <div
+        className="logo"
+      >
+        <a
+          href="/"
+          title="pixus"
+        >
+          <img
+            alt="pixus logo"
+            className="darkLogo"
+            src="test-file-stub"
+          />
+          <img
+            alt="pixus logo"
+            className="brightLogo"
+            src="test-file-stub"
+          />
+        </a>
+      </div>
+      <div
+        className="get-started"
+      >
+        <a
+          href="https://app.histaff.io"
+        >
+          Get Started
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+`;

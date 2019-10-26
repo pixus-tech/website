@@ -1,9 +1,10 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "components/Layout"
+import SEO from "components/SEO"
 
-const PrivacyPage = () => (
+function PrivacyPolicy() {
+  return (
   <Layout>
     <SEO title="Privacy Policy"/>
     <div className={"container"}>
@@ -211,5 +212,6 @@ Before personal data is provided by the data subject, the data subject must cont
         </div>
     </Layout>
 )
+}
 
-export default PrivacyPage
+export default PrivacyPolicy
