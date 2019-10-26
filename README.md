@@ -1,7 +1,7 @@
 # pixus website
 ---
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/02365584-601c-4a7e-b9ca-031577d9c923/deploy-status)](https://app.netlify.com/sites/pixus-website/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f90c5a4-9466-4b85-ba99-7973c2e86e3c/deploy-status)](https://app.netlify.com/sites/pixus-website/deploys)
 
 ## Development
 
