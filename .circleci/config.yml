@@ -16,6 +16,7 @@ workflows:
             - install
       - deploy:
           requires:
+            - lint
             - test
           filters:
             branches:
