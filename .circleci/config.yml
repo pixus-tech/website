@@ -34,11 +34,17 @@ jobs:
           paths:
             - ./node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+      - persist_to_workspace:
+          root: .
+          paths:
+            - node_modules
   test:
     executor: node-executor
     working_directory: ~/repo
     steps:
       - checkout
+      - attach_workspace:
+          at: .
       - run:
           name: Run tests
           command: npm test
@@ -47,6 +53,8 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - attach_workspace:
+          at: .t
       - run:
           name: Build
           command: npm build
