@@ -5,6 +5,14 @@ module.exports = {
     author: `@tomknig`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /\.svg$/,
+        },
+      },
+    },
     `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-plugin-resolve-src',

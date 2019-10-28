@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import darkLogo from 'images/wbm.svg'
-import brightLogo from 'images/wbm--bright.svg'
+import DarkLogo from 'images/wbm.svg'
+import BrightLogo from 'images/wbm--bright.svg'
 
 interface IProps {
   siteTitle: string
@@ -14,8 +14,8 @@ function Header({ siteTitle: _siteTitle }: IProps) {
         <div className={'top-menu'}>
           <div className={'logo'}>
             <Link to="/" title={'pixus'}>
-              <img alt="pixus logo" src={darkLogo} className="darkLogo" />
-              <img alt="pixus logo" src={brightLogo} className="brightLogo" />
+              <DarkLogo className="darkLogo" />
+              <BrightLogo className="brightLogo" />
             </Link>
           </div>
 

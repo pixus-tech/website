@@ -6,9 +6,9 @@ import 'typeface-source-sans-pro'
 
 import Header from './Header'
 import 'styles/main.scss'
-import logo from 'images/wbm--bright.svg'
-import iconTwitter from 'images/icon-twitter.svg'
-import iconGitHub from 'images/icon-github.svg'
+import Logo from 'images/wbm--bright.svg'
+import IconTwitter from 'images/icon-twitter.svg'
+import IconGitHub from 'images/icon-github.svg'
 
 interface IProps {
   children: React.ReactNode
@@ -37,7 +37,7 @@ function Layout({ children }: IProps) {
                   <div className={'widget__item'}>
                     <div className={'logo footer__logo'}>
                       <Link to="/" title={'pixus'}>
-                        <img alt={'Logo'} src={logo} />
+                        <Logo />
                       </Link>
                     </div>
 
@@ -94,14 +94,14 @@ function Layout({ children }: IProps) {
                         target={'_blank'}
                         title={'Twitter'}
                       >
-                        <img alt={'Twitter'} src={iconTwitter} />
+                        <IconTwitter />
                       </a>
                       <a
                         href="https://github.com/tomknig"
                         target={'_blank'}
                         title={'GitHub'}
                       >
-                        <img alt={'GitHub'} src={iconGitHub} />
+                        <IconGitHub />
                       </a>
                     </div>
                   </div>

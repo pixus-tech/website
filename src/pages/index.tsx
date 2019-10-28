@@ -2,12 +2,12 @@ import React from 'react'
 
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
-import featureImage from 'images/hero.png'
-import thumbnailOrganize from 'images/pluto/pluto-artist-workspace.png'
-import thumbnailData from 'images/pluto/virtual-reality.png'
-import thumbnailEncryption from 'images/pluto/information-security-1.png'
-import thumbnailAI from 'images/pluto/robots-drones-artificial-intelligence-1.png'
-import thumbnailPerformance from 'images/pluto/pluto-success-1.png'
+import FeatureImage from 'images/hero.svg'
+import ThumbnailOrganize from 'images/pluto/pluto-artist-workspace.svg'
+import ThumbnailData from 'images/pluto/virtual-reality.svg'
+import ThumbnailEncryption from 'images/pluto/information-security-1.svg'
+import ThumbnailAI from 'images/pluto/robots-drones-artificial-intelligence-1.svg'
+import ThumbnailPerformance from 'images/pluto/pluto-success-1.svg'
 
 function IndexPage() {
   return (
@@ -21,7 +21,7 @@ function IndexPage() {
           encrypted photos. With Pixus, you choose where your encrypted data is
           stored.
         </p>
-        <img alt={'Dashboard'} src={featureImage} />
+        <FeatureImage />
       </div>
 
       <div className={'container'}>
@@ -30,7 +30,7 @@ function IndexPage() {
             <div className={'row'}>
               <div className={'col-6 first'}>
                 <div className={'thumbnail'}>
-                  <img alt={'Organize and share'} src={thumbnailOrganize} />
+                  <ThumbnailOrganize />
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ function IndexPage() {
 
               <div className={'col-6 first'}>
                 <div className={'thumbnail'}>
-                  <img alt={'Your data'} src={thumbnailData} />
+                  <ThumbnailData />
                 </div>
               </div>
             </div>
@@ -73,10 +73,7 @@ function IndexPage() {
             <div className={'row'}>
               <div className={'col-6 first'}>
                 <div className={'thumbnail'}>
-                  <img
-                    alt={'End-to-end encryption'}
-                    src={thumbnailEncryption}
-                  />
+                  <ThumbnailEncryption />
                 </div>
               </div>
 
@@ -108,7 +105,7 @@ function IndexPage() {
 
               <div className={'col-6 first'}>
                 <div className={'thumbnail'}>
-                  <img alt={'Performance'} src={thumbnailPerformance} />
+                  <ThumbnailPerformance />
                 </div>
               </div>
             </div>
@@ -118,7 +115,7 @@ function IndexPage() {
             <div className={'row'}>
               <div className={'col-6 first'}>
                 <div className={'thumbnail'}>
-                  <img alt={'Artificial intelligence'} src={thumbnailAI} />
+                  <ThumbnailAI />
                 </div>
               </div>
 

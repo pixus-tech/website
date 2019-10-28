@@ -17,6 +17,28 @@ body {
   color: $color-primary--light;
   background-color: $color-white;
 
+  --illu-bg--dark: #000000;
+  --illu-bg--main: #1c1c1e;
+  --illu-bg--light: #434345;
+  --illu-red--dark: #ae003e;
+  --illu-red--main: #e61f68;
+  --illu-blue--dark: #0086aa;
+  --illu-blue--main: #06b6dc;
+  --illu-red--light: #ff6096;
+  --illu-blue--light: #64e8ff;
+  --illu-brown--dark: #926c5d;
+  --illu-brown--main: #c39a8a;
+  --illu-green--dark: #007402;
+  --illu-green--main: #0ca438;
+  --illu-white--dark: #c0c0c0;
+  --illu-white--main: #f3f3f3;
+  --illu-brown--light: #f7cbba;
+  --illu-green--light: #57d666;
+  --illu-white--light: #ffffff;
+  --illu-yellow--dark: #c4ab00;
+  --illu-yellow--main: #fcdc00;
+  --illu-yellow--light: #ffff53;
+
   p {
     font-family: $font-body;
   }
@@ -41,7 +63,7 @@ body {
       border-radius: 4px;
       color: $color-white;
       display: block;
-      font-weight: bold;
+      font-weight: 500;
       height: $cta-height;
       line-height: $cta-height;
       padding: 0 16px;
@@ -90,7 +112,7 @@ body {
     }
 
     .logo {
-      img {
+      svg {
         width: $wbm-width;
         height: $wbm-height;
 
@@ -154,7 +176,7 @@ body {
       max-width: 720px;
     }
 
-    img {
+    svg {
       margin-top: 42px;
       max-width: 80%;
 
@@ -175,7 +197,7 @@ body {
         padding-top: 0;
       }
 
-      img {
+      svg {
         max-width: 98%;
       }
     }
@@ -218,7 +240,7 @@ body {
           width: 80%;
         }
 
-        img {
+        svg {
           display: block;
           margin: 0 auto;
           max-width: 80%;
@@ -278,11 +300,9 @@ body {
         margin-top: 30px;
       }
 
-      .get-started {
-        @media screen and (max-width: $break-small) {
-          a {
-            margin: 0 auto;
-          }
+      @media screen and (max-width: $break-small) {
+        a {
+          margin: 0 auto;
         }
       }
     }
@@ -381,7 +401,7 @@ body {
     }
 
     .footer__logo {
-      img {
+      svg {
         width: 150px;
       }
     }
@@ -449,12 +469,12 @@ body {
         a {
           margin-left: 20px;
 
-          img {
+          svg {
             filter: contrast(0);
             transition: 0.15s;
           }
 
-          &:hover img {
+          &:hover svg {
             filter: contrast(1);
           }
 
