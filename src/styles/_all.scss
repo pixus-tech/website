@@ -11,6 +11,7 @@ $color-secondary--dark: #0086aa;
 $cta-height: 48px;
 $wbm-height: $cta-height;
 $wbm-width: $wbm-height * 4.23;
+$hero-screenshot-inset: 6%;
 
 body {
   font-family: $font-body;
@@ -176,12 +177,42 @@ body {
       max-width: 720px;
     }
 
-    svg {
-      margin-top: 42px;
+    .hero {
+      margin: 21px auto 0;
       max-width: 80%;
+      position: relative;
+
+      .hero-content {
+        width: 100%;
+        padding-bottom: 62.5%;
+      }
 
       @media screen and (max-width: $break-small) {
-        margin-top: 0px;
+        margin: 0 auto;
+      }
+
+      svg {
+        bottom: 0;
+        left: 0;
+        opacity: 0.2;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .hero-screenshot-wrapper {
+        bottom: $hero-screenshot-inset;
+        left: $hero-screenshot-inset;
+        position: absolute;
+        right: $hero-screenshot-inset;
+        top: $hero-screenshot-inset;
+      }
+
+      .hero-screenshot {
+        background-color: $color-primary--main;
+        border-radius: 16px;
+        height: auto;
+        width: 100%;
       }
     }
 

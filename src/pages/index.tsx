@@ -2,7 +2,8 @@ import React from 'react'
 
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
-import FeatureImage from 'images/hero.svg'
+import HeroBackground from 'images/hero.svg'
+import HeroImage from 'images/hero.png'
 import ThumbnailOrganize from 'images/pluto/pluto-artist-workspace.svg'
 import ThumbnailData from 'images/pluto/virtual-reality.svg'
 import ThumbnailEncryption from 'images/pluto/information-security-1.svg'
@@ -18,10 +19,16 @@ function IndexPage() {
         <h1>Reclaim your photo library</h1>
         <p>
           Pixus empowers you to organize, explore and share your end-to-end
-          encrypted photos. With Pixus, you choose where your encrypted data is
-          stored.
+          encrypted photos. With Pixus, you choose where your data is stored.
         </p>
-        <FeatureImage />
+        <div className={'hero'}>
+          <div className={'hero-content'}>
+            <HeroBackground />
+            <div className={'hero-screenshot-wrapper'}>
+              <img className={'hero-screenshot'} src={HeroImage} />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className={'container'}>
