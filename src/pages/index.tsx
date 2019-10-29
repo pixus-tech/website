@@ -20,8 +20,9 @@ function IndexPage() {
           Reclaim <em>your</em> photo library
         </h1>
         <p>
-          Pixus empowers you to organize, explore and share end-to-end encrypted
-          photos. With Pixus, you choose where your data is stored.
+          Pixus empowers <em>you</em> to organize, explore and share end-to-end
+          encrypted photos. With Pixus, <em>you</em> choose where <em>your</em>{' '}
+          data is stored.
         </p>
         <div className={'hero'}>
           <div className={'hero-content'}>
@@ -90,9 +91,9 @@ function IndexPage() {
                 <div className={'feature__content'}>
                   <h2>End-to-end encryption</h2>
                   <p>
-                    Pixus encrypts photos before they leave your device. When
-                    you want to collaborate on an album, a key is used that is
-                    only known to the participants of that album.
+                    Pixus encrypts photos before they leave your device. For
+                    collaborative albums, a key is used that is only known to
+                    the participants of that album.
                   </p>
                 </div>
               </div>
@@ -132,9 +133,9 @@ function IndexPage() {
                 <div className={'feature__content'}>
                   <h2>AI. On your machine.</h2>
                   <p>
-                    Pixus leverages AI to make your photos explorable through
-                    smart albums and a powerful search engine. All entirely on
-                    your device.
+                    Pixus uses AI to make your photos explorable through smart
+                    albums and a powerful search engine. All entirely on your
+                    device.
                   </p>
                 </div>
               </div>
