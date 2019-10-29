@@ -179,7 +179,8 @@ body {
 
     .hero {
       margin: 21px auto 0;
-      max-width: 80%;
+      width: 95%;
+      max-width: 1360px;
       position: relative;
 
       .hero-content {
@@ -188,7 +189,8 @@ body {
       }
 
       @media screen and (max-width: $break-small) {
-        margin: 0 auto;
+        margin: 16px -4% 0;
+        width: auto;
       }
 
       svg {
