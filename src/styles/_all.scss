@@ -44,6 +44,10 @@ body {
     font-family: $font-body;
   }
 
+  em {
+    font-style: italic;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: $font-accent;
     line-height: 43px;
@@ -179,7 +183,7 @@ body {
 
     .hero {
       margin: 21px auto 0;
-      width: 95%;
+      width: 90%;
       max-width: 1360px;
       position: relative;
 

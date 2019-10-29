@@ -16,10 +16,12 @@ function IndexPage() {
       <SEO title="Reclaim your photo library" />
 
       <div className={'page-header home'}>
-        <h1>Reclaim your photo library</h1>
+        <h1>
+          Reclaim <em>your</em> photo library
+        </h1>
         <p>
-          Pixus empowers you to organize, explore and share your end-to-end
-          encrypted photos. With Pixus, you choose where your data is stored.
+          Pixus empowers you to organize, explore and share end-to-end encrypted
+          photos. With Pixus, you choose where your data is stored.
         </p>
         <div className={'hero'}>
           <div className={'hero-content'}>
@@ -47,7 +49,7 @@ function IndexPage() {
                   <p>
                     Create albums, upload photos and invite others to share
                     end-to-end encrypted photos. You receive notifications when
-                    albums change or you are invited to a new one.
+                    albums change or when you are invited to a new one.
                   </p>
                 </div>
               </div>
@@ -60,10 +62,10 @@ function IndexPage() {
                 <div className={'feature__content'}>
                   <h2>Your storage, your data</h2>
                   <p>
-                    Pixus uses a decentral storage engine <i>Blockstack Gaia</i>{' '}
+                    Pixus uses a decentralized storage engine, Blockstack Gaia,{' '}
                     that allows you to decide where your encrypted data is
-                    stored. <i>Blockstack Gaia</i> comes with 10GB of storage
-                    free of charge.
+                    stored. Blockstack Gaia comes with 10GB of storage free of
+                    charge.
                   </p>
                 </div>
               </div>
@@ -88,7 +90,7 @@ function IndexPage() {
                 <div className={'feature__content'}>
                   <h2>End-to-end encryption</h2>
                   <p>
-                    Pixus encrypts photos before they leave your device. In case
+                    Pixus encrypts photos before they leave your device. When
                     you want to collaborate on an album, a key is used that is
                     only known to the participants of that album.
                   </p>
@@ -104,7 +106,7 @@ function IndexPage() {
                   <h2>High performance</h2>
                   <p>
                     Efficient virtualization and concurrency mechanisms are
-                    employed to provide high performane. Pixus can handle
+                    employed to ensure a high performane. Pixus can handle
                     libraries with thousands of photos.
                   </p>
                 </div>
@@ -130,10 +132,9 @@ function IndexPage() {
                 <div className={'feature__content'}>
                   <h2>AI. On your machine.</h2>
                   <p>
-                    Pixus leverages latest AI research for analyzing your photos
-                    on your machine. It makes them explorable through smart
-                    albums and a powerful search engine. Entirely on your
-                    device.
+                    Pixus leverages AI to make your photos explorable through
+                    smart albums and a powerful search engine. All entirely on
+                    your device.
                   </p>
                 </div>
               </div>
