@@ -107,7 +107,7 @@ function IndexPage() {
                   <h2>High performance</h2>
                   <p>
                     Efficient virtualization and concurrency mechanisms are
-                    employed to ensure a high performane. Pixus can handle
+                    employed to ensure a high performance. Pixus can handle
                     libraries with thousands of photos.
                   </p>
                 </div>
