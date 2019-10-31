@@ -40,6 +40,18 @@ body {
   --illu-yellow--main: #fcdc00;
   --illu-yellow--light: #ffff53;
 
+  .coming-soon {
+    margin-right: 8px;
+    height: 18px;
+    line-height: 18px;
+    width: auto;
+    background: $color-secondary--main;
+    color: $color-white;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 4px;
+  }
+
   p {
     font-family: $font-body;
   }

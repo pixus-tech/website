@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "pixus.tech",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "pixus website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tom König <hi@tomknig.de>",
   "dependencies": {
     "gatsby": "^2.17.5",
     "gatsby-cli": "^2.8.6",
@@ -45,9 +45,6 @@
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --output-dir",
@@ -62,12 +59,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

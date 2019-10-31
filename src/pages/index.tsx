@@ -133,6 +133,7 @@ function IndexPage() {
                 <div className={'feature__content'}>
                   <h2>AI. On your machine.</h2>
                   <p>
+                    <span className={'coming-soon'}>coming soon</span>
                     Pixus uses AI to make your photos explorable through smart
                     albums and a powerful search engine. All entirely on your
                     device.

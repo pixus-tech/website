@@ -90,14 +90,14 @@ function Layout({ children }: IProps) {
                   <div className={'widget__item'}>
                     <div className={'social'}>
                       <a
-                        href="https://twitter.com/tomknig"
+                        href="https://www.twitter.com/pixus_tech"
                         target={'_blank'}
                         title={'Twitter'}
                       >
                         <IconTwitter />
                       </a>
                       <a
-                        href="https://github.com/tomknig"
+                        href="https://www.github.com/pixus-tech"
                         target={'_blank'}
                         title={'GitHub'}
                       >
