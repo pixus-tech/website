@@ -27,7 +27,11 @@ function LegalNotice() {
           <h3>
             <strong>Contact Information</strong>
           </h3>
-          <p>E-Mail: support@pixus.tech</p>
+          <p>
+            Email: support@pixus.tech
+            <br />
+            Website: <a href="https://www.tomkoenig.de">tomkoenig.de</a>
+          </p>
 
           <h3>
             <strong>VAT number</strong>
