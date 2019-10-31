@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
+import socialImage from 'images/social.jpg'
 
 interface IProps {
   description: string
@@ -18,6 +19,7 @@ function SEO({ description, lang, meta, title }: IProps) {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -65,6 +67,10 @@ function SEO({ description, lang, meta, title }: IProps) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `${site.siteMetadata.siteUrl}${socialImage}`,
         },
       ].concat(meta)}
     >

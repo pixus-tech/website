@@ -3,6 +3,7 @@ module.exports = {
     title: `pixus`,
     description: `Reclaim your photo library`,
     author: `@tomknig`,
+    siteUrl: 'https://www.pixus.tech',
   },
   plugins: [
     {
